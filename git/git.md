@@ -11,7 +11,7 @@ HONGPRO/
 └ .gitkeep
 ```
 
-### 1️⃣ GitHub → Local (원격으로 로컬 덮어쓰기)
+1️⃣ GitHub → Local (원격으로 로컬 덮어쓰기)
 
 > GitHub 저장소 상태를 **정답**으로 보고  
 > 로컬 파일을 GitHub 상태로 강제 동기화
