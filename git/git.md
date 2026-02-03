@@ -10,7 +10,13 @@ HONGPRO/
 ├ key.env # API Key, 비밀 정보
 └ .gitkeep
 ```
-
+local = githun 연동 (url) 가져오기
+```
+git init
+git remote add origin 깃주소git
+git remote -v
+```
+<br>
 local > github 업로드
 ```
 git add .
