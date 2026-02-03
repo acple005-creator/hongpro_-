@@ -1,6 +1,7 @@
 ## 🔁 GitHub ↔ Local 안전 동기화 가이드
 
-📌 프로젝트 구조 예시<br>
+📌 프로젝트 구조 예시
+```
 HONGPRO/
 ├ html/
 ├ python/
@@ -8,7 +9,7 @@ HONGPRO/
 └ key/
 ├ key.env # API Key, 비밀 정보
 └ .gitkeep
----
+```
 
 ### 1️⃣ GitHub → Local (원격으로 로컬 덮어쓰기)
 
