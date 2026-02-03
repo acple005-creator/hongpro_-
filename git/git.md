@@ -17,7 +17,6 @@ git init
 git remote add origin 깃주소git
 git remote -v
 ```
-#
 local > github 업로드
 ```
 git add .
