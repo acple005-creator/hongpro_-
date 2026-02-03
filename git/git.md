@@ -1,10 +1,6 @@
-# 🔁 GitHub ↔ Local 안전 동기화 가이드  
-> **API Key 보호 **
+## 🔁 GitHub ↔ Local 안전 동기화 가이드  
 
----
-
-## 📌 프로젝트 구조 예시
-
+📌 프로젝트 구조 예시
 HONGPRO/
 ├ html/
 ├ python/
@@ -14,7 +10,7 @@ HONGPRO/
 └ .gitkeep
 ---
 
-## 1️⃣ GitHub → Local (원격으로 로컬 덮어쓰기)
+### 1️⃣ GitHub → Local (원격으로 로컬 덮어쓰기)
 
 > GitHub 저장소 상태를 **정답**으로 보고  
 > 로컬 파일을 GitHub 상태로 강제 동기화
