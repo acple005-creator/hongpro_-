@@ -1,5 +1,5 @@
-## 🔁 GitHub ↔ Local 안전 동기화 가이드  
-
+## 🔁 GitHub ↔ Local 안전 동기화 가이드
+###
 📌 프로젝트 구조 예시
 HONGPRO/
 ├ html/
