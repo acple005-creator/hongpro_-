@@ -22,14 +22,6 @@ local > github 업로드
 git add .
 git commit -m "update"
 git push
-```
-#
-key 폴더를 보호한 채 GitHub > Local 덮어쓰기
-```
-git fetch origin
-git reset --hard origin/main
-git clean -fd
-
 move ..\key_backup key
 ```
 #
@@ -46,4 +38,8 @@ git rm --cached key/key.env
 git commit -m "Remove key.env from git tracking"
 git push
 ```
-
+key 폴더를 보호한 채 GitHub > Local 덮어쓰기
+```
+git fetch origin
+git reset --hard origin/main
+git clean -fd
