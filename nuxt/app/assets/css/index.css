@@ -1,0 +1,60 @@
+/* 전체 배경 */
+.bg {
+  width: 100vw;
+  height: 100vh;
+
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.50),  /* ← 이 숫자만 조절 */
+      rgba(0, 0, 0, 0.50)
+    ),
+    url("./bg.webp");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 가운데 정렬 */
+.center {
+  text-align: center;
+}
+
+/* 제목 */
+.title {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 60px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 12px rgba(255,255,255,0.6);
+}
+
+/* 버튼 줄 */
+.btnRow {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+/* 버튼 */
+.pill {
+  padding: 18px 60px;
+  border: 3px solid #fff;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* 호버 효과 */
+.pill:hover {
+  background: rgba(255,255,255,0.15);
+  box-shadow:
+    0 0 12px rgba(255,255,255,0.8),
+    0 0 30px rgba(255,255,255,0.4);
+  transform: translateY(-2px);
+}
